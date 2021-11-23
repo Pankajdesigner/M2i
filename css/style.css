@@ -1143,13 +1143,13 @@ footer .right_content ul li:first-child {
   top:-9999px;
 }
 .rate:not(:checked) > label {
-  float:right;
-  width:1em;
-  overflow:hidden;
-  white-space:nowrap;
-  cursor:pointer;
-  font-size:30px;
-  color:#ccc;
+  float: right;
+    width: 31px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 26px;
+    color: #ccc;
 }
 .rate:not(:checked) > label:before {
   content: '★ ';
