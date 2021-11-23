@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="./css/owl.carousel.min.css">
+<link rel="stylesheet" href="./css/owl.theme.default.min.css"> 
+<link rel="stylesheet" href="css/style.css">
+<title>Review</title>
+</head>
+<body>
+
+     
+    
+ 
+
+<section class="regi_success">
+    <div class="container"> 
+         
+    </div> 
+</section> 
+ 
+  
+<!-- Modal 2-->
+<div class="modal fade comn_model register_model " id="review-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <div class="model_title">
+                <h5 class="title1" id="exampleModalLabel">Rate Our Course</h5>
+                <span class="small-title">Financial Analysis for MFIs</span>
+            </div>
+          
+          <a href="index.html" class="close">
+             <img src="images/close_ico.svg" alt="">
+          </a>
+        </div>
+        <div class="modal-body">
+            <form class="content_box">
+                 
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+                
+                <input type="text" name="" placeholder="Phone Number">
+                
+                <textarea class="review-textarea" placeholder="Write Review"></textarea>
+                
+             
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Profile Picture</label>
+                </div>
+                
+                <div class="clearfix"></div>
+
+            </form>
+        </div>
+        <div class="modal-footer" style="justify-content: center;"> 
+            <a href="success-payment.html" class="submit_btn">Submit Review</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal end--> 
+
+
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+
+<script> 
+    $(document).ready(function(){
+        $("#review-modal").modal('show');
+        $('.modal-backdrop').css('background-color', 'transparent');
+    }); 
+</script>
+
+<script> 
+    $(".custom-file-input").on("change", function() {
+      var fileName = $(this).val().split("\\").pop();
+      $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+    </script>
+
+</body>
+</html>

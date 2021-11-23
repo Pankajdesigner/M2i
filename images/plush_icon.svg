@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+  <g id="plush_icon" transform="translate(-981 -311)">
+    <g id="Group_1113" data-name="Group 1113" transform="translate(981.154 311.056)">
+      <rect id="Rectangle_264" data-name="Rectangle 264" width="26" height="25" rx="12.5" transform="translate(-0.154 -0.056)" fill="#00b4b1"/>
+    </g>
+    <path id="Path_1386" data-name="Path 1386" d="M10.969-4.875a.812.812,0,0,1-.812.813H6.5V-.406a.812.812,0,0,1-.812.812.812.812,0,0,1-.812-.812V-4.062H1.219a.812.812,0,0,1-.812-.813.812.812,0,0,1,.813-.812H4.875V-9.343a.812.812,0,0,1,.813-.813.812.812,0,0,1,.813.813v3.656h3.656A.811.811,0,0,1,10.969-4.875Z" transform="translate(988.594 328.156)" fill="#fff"/>
+  </g>
+</svg>
