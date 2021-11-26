@@ -500,6 +500,7 @@ a:hover {
   opacity: 1;
   transition: 0.3s;
   transform: scale(1);
+  text-align: left;
 }
 
 .about_m2i .img-box {
@@ -1529,6 +1530,9 @@ footer .right_content ul li:first-child {
   }
   .delivery_m{
     padding-bottom: 30px;
+  }
+  .sub-title span{
+    display: none;
   }
 }
  
